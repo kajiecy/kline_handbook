@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "cityelec";
+  src: url(../cityelec.TTF) format("truetype");
+}
+* {
+  // font-family: "cityelec";
+}
+.ant-tooltip-arrow-content,
+.ant-tooltip-inner {
+  background-color: #e5eff9 !important;
+}
+
+body,
+html {
+  margin: 0;
+}
+.line1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+p {
+  margin-bottom: 0;
+}
+.red-color {
+  color: red;
+}
